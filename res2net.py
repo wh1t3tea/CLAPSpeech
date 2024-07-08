@@ -8,7 +8,7 @@ from torch import nn
 class Res2Net(nn.Module):
 
     def __init__(self, C):
-        super(Res2Ne, self).__init__()
+        super(Res2Net, self).__init__()
 
         self.conv1 = nn.Conv1d(80, C, kernel_size=5, stride=1, padding=2)
         self.relu = nn.ReLU()
